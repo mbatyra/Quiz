@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#99ff33">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="5.95"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:gravity="center"
+            android:text="Zgadnij kto to?" />
+
+        <ImageView
+            android:backgroundTint="#99ff33"
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+            android:layout_height="354dp"
+            android:layout_margin="5dp"
+            android:layout_weight="0.25"
+            android:background="#fff"
+            android:padding="30dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/kot"
+            android:tag="Kot" />
+
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:id="@+id/radioGroup1">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kot"
+                android:id="@+id/radioButton1" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tygrys"
+                android:id="@+id/radioButton2" />
+        </RadioGroup>
+
+        <ImageView
+            android:backgroundTint="#99ff33"
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="354dp"
+            android:layout_margin="5dp"
+            android:layout_weight="0.25"
+            android:background="#fff"
+            android:padding="30dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/pies"
+            android:tag="Pies" />
+
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:id="@+id/radioGroup2">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Wilk"
+                android:id="@+id/radioButton3" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pies"
+                android:id="@+id/radioButton4" />
+        </RadioGroup>
+
+        <ImageView
+            android:backgroundTint="#99ff33"
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="354dp"
+            android:layout_margin="5dp"
+            android:layout_weight="0.25"
+            android:background="#fff"
+            android:padding="30dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/kon"
+            android:tag="Kon" />
+
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:id="@+id/radioGroup3">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Koń"
+                android:id="@+id/radioButton5" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jeleń"
+                android:id="@+id/radioButton6" />
+        </RadioGroup>
+
+        <ImageView
+            android:backgroundTint="#99ff33"
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="354dp"
+            android:layout_margin="5dp"
+            android:layout_weight="0.25"
+            android:background="#fff"
+            android:padding="30dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/krowa"
+            android:tag="Krowa" />
+
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:id="@+id/radioGroup4">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bizon"
+                android:id="@+id/radioButton7" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Krowa"
+                android:id="@+id/radioButton8" />
+        </RadioGroup>
+
+        <ImageView
+            android:backgroundTint="#99ff33"
+            android:id="@+id/imageView5"
+            android:layout_width="match_parent"
+            android:layout_height="354dp"
+            android:layout_margin="5dp"
+            android:layout_weight="0.25"
+            android:background="#fff"
+            android:padding="30dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/swinia"
+            android:tag="Swinia" />
+
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:id="@+id/radioGroup5">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Swinia"
+                android:id="@+id/radioButton9" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Poseł"
+                android:id="@+id/radioButton10" />
+        </RadioGroup>
+
+
+    </LinearLayout>
+
+</ScrollView>
